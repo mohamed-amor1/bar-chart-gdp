@@ -1,0 +1,41 @@
+/* Use system fonts with fallbacks for better performance */
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Apply a simple reset to the body for consistent styles */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Use justify-content instead of place-items */
+  align-items: center; /* Use align-items instead of place-items */
+  min-width: 320px;
+  background-color: white;
+}
+
+/* Set a base font size and line-height for headings */
+h1 {
+  font-size: 3.2rem; /* Use rem units for responsive typography */
+  line-height: 1.1;
+  margin: 0 auto;
+}
+
+/* Center the container horizontally and vertically */
+.container {
+  justify-content: center; /* Use justify-content instead of place-items */
+  align-items: center; /* Use align-items instead of place-items */
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 auto;
+}
