@@ -14,11 +14,11 @@ Interactive tooltips for detailed information.
 
 This project leverages the following technologies:
 
-**Vite**: A fast development build tool.
-**React**: A popular JavaScript library for building user interfaces.
-**TypeScript**: A statically typed superset of JavaScript.
-**Chart.js**: A JavaScript charting library.
-**React-Chartjs-2**: A React wrapper for Chart.js.
+**Vite**: A fast development build tool.  
+**React**: A popular JavaScript library for building user interfaces.  
+**TypeScript**: A statically typed superset of JavaScript.  
+**Chart.js**: A JavaScript charting library.  
+**React-Chartjs-2**: A React wrapper for Chart.js.  
 
 ## Data Source
 
